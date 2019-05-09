@@ -1,0 +1,57 @@
+
+body{
+background-image: url('fondoweb.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+}
+
+@media screen and (max-width:100%){
+  body{
+    background-image: url('fondoweb.jpg');
+  }
+
+
+#barrasuperior{
+  background-color: rgba(48, 171, 217, 0.41);
+  color:rgba(48, 171, 217, 0.41);
+  width: 95%;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+
+}
+
+#titol{
+  font-size: Verdana;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+#logos{
+
+}
+
+#barramedio{
+  background-color: rgba(48, 171, 217, 0.41);
+  width: 95%;
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  top: 320px;
+  text-align: center;
+  position: absolute;
+}
+
+#barrainferior{
+  background-color: #FF5;
+  width: 95%;
+  height: 100px;
+  vertical-align: middle;
+  padding-left: 5%;
+  top: 400px;
+}
