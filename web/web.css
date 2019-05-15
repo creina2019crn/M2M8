@@ -1,12 +1,14 @@
 @media screen and (min-width:481px){
-  body{
 
-  }
+
+
+
 body{
 font-family: Verdana;
 margin: 0;
 padding: 0;
 background-image: url(imagenes/fondoweb.jpg);
+box-sizing: border-box;
 }
 
 #quisom{

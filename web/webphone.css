@@ -4,7 +4,7 @@ body{
 font-family: Verdana;
 margin: 0;
 padding: 0;
-background-image: url(imagenes/fondoweb.jpg);
+background-color: #FFF;
 }
 
 
@@ -72,6 +72,7 @@ background-image: url(imagenes/fondoweb.jpg);
   float: left;
   margin: -5px;
   padding: 5px;
+  margin-left: -30px;
 
 }
 
@@ -89,6 +90,7 @@ h1{
   margin: 5px;
   padding: 5px;
   text-align: center;
+  font-size: 25px;
 }
 
 p{
@@ -125,8 +127,9 @@ p2{
   font-size: 12px;
 }
 
-
-
+#ciutats{
+  margin: 10px;
+}
 
 .check{
   cursor: pointer;
@@ -197,9 +200,14 @@ li{
   width: 100%;
   display: inline-block;
   vertical-align: middle;
+  font-size: 15px;
   text-align: center;
   overflow: hidden;
 }
+
+
+
+
 
 #arc1 img{
   height: 280px;
@@ -218,7 +226,11 @@ li{
   width: 380px;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
 }
+
+
+
 
 
 #cat1 img{
@@ -232,6 +244,10 @@ li{
   padding: 20px;
 }
 
+
+
+
+
 #colom1 img{
   height: 260px;
   width: auto;
@@ -241,7 +257,9 @@ li{
 
 #leon img{
   height: auto;
-  width: 380px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #estatua img{
@@ -251,15 +269,18 @@ li{
   margin: 50px;
 }
 
+
+
+
+
 #camp img{
   height: 300px;
-  width: auto;
+  width: 100%;
 }
-
 
 #pano img{
   height: 90px;
-  width: auto;
+  width: 100%;
 }
 
 #confe img{
@@ -268,6 +289,10 @@ li{
   margin: 5px;
   padding: 10px;
 }
+
+
+
+
 
 #hotel img{
   height: 400px;
@@ -278,7 +303,7 @@ li{
 
 #hotel_arriba img{
   height: 320px;
-  width: auto;
+  width: 100%;
 }
 
 
@@ -288,6 +313,11 @@ li{
   margin-left: 60px;
   padding: 10px;
 }
+
+
+
+
+
 
 #arenas img{
   height: 280px;
@@ -308,6 +338,10 @@ li{
   margin-bottom: 10px;
 }
 
+
+
+
+
 #font img{
   height: 280px;
   width: auto;
@@ -325,6 +359,10 @@ li{
   margin-bottom: 15px;
 }
 
+
+
+
+
 #plaza img{
   height: 250px;
   width: auto;
@@ -339,10 +377,14 @@ li{
 }
 
 #fondo_magenta img{
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   margin-bottom: 10px;
 }
+
+
+
+
 
 #rambla_bajo img{
   width: 100%;
@@ -367,6 +409,11 @@ li{
   padding: 5px;
 }
 
+
+
+
+
+
 #safa img{
   width: 95%;
   height: auto;
@@ -376,9 +423,8 @@ li{
 
 #safa_sinfondo img{
   width: 100%;
-  height: auto; 
+  height: auto;
 }
-
 
 
 
@@ -396,7 +442,7 @@ padding: 30px;
 
     background-color: #3399ff;
     width: 100%;
-    height: 15%;
+    height: 10%;
     vertical-align: middle;
     text-align: center;
     padding: 0;
@@ -409,7 +455,7 @@ padding: 30px;
   background-color: ;
   padding: 0 2px;
   margin: 0 2px;
-  width: 31%;
+  width: 30%;
   float: left;
   border-right: solid 1px #000;
 }
@@ -452,7 +498,6 @@ padding: 30px;
   float: left;
   margin: 0 5px;
   padding: 0 5px;
-
   text-align: center;
   font-size: 10px;
   line-height: 14px;
@@ -465,10 +510,9 @@ padding: 30px;
 
 #generalitat{
   background-color: ;
-
-  margin-left: 0;
-  height: 50px;
+  height: 40px;
   width: 100px;
+
 
 }
 
