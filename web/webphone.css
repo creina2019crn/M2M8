@@ -85,7 +85,16 @@ background-image: url(imagenes/fondoweb.jpg);
 
 }
 
+h1{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
 
+p{
+  margin: 5px;
+  padding: 5px;
+}
 
 a{
   color: #FFF;
