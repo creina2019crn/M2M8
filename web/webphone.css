@@ -201,6 +201,37 @@ li{
   overflow: hidden;
 }
 
+#arc1 img{
+  height: 280px;
+  width: auto;
+}
+
+#art1 img{
+  height: 400px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#parc1 img{
+  height: auto;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+}
+
+
+#cat1 img{
+  height: 500px;
+  width: auto;
+}
+
+#cat2 img{
+  height: 200px;
+  width: auto;
+  padding: 20px;
+}
+
 
 
 
@@ -223,8 +254,6 @@ padding: 30px;
     padding: 0;
     margin: 0;
     overflow: hidden;
-
-
   }
 
 
