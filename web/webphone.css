@@ -232,6 +232,154 @@ li{
   padding: 20px;
 }
 
+#colom1 img{
+  height: 260px;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+}
+
+#leon img{
+  height: auto;
+  width: 380px;
+}
+
+#estatua img{
+  height: 400px;
+  width: auto;
+  padding: 5px;
+  margin: 50px;
+}
+
+#camp img{
+  height: 300px;
+  width: auto;
+}
+
+
+#pano img{
+  height: 90px;
+  width: auto;
+}
+
+#confe img{
+  height: 265px;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+}
+
+#hotel img{
+  height: 400px;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+}
+
+#hotel_arriba img{
+  height: 320px;
+  width: auto;
+}
+
+
+#hotel_todo img{
+  height: 320px;
+  width: auto;
+  margin-left: 60px;
+  padding: 10px;
+}
+
+#arenas img{
+  height: 280px;
+  width: auto;
+}
+
+#arenas_arriba img{
+  height: 250px;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+#arriba img{
+  height: 280px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#font img{
+  height: 280px;
+  width: auto;
+}
+
+#parque img{
+  height: 250px;
+  width: auto;
+  margin-left: 20px;
+}
+
+#lago img{
+  height: 280px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+#plaza img{
+  height: 250px;
+  width: auto;
+  margin-left: 20px;
+}
+
+#bicis img{
+  height: 250px;
+  width: auto;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+#fondo_magenta img{
+  height: 100%;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#rambla_bajo img{
+  width: 100%;
+  height: auto;
+}
+
+#estatuas img{
+  width: 180px;
+  height: auto;
+  margin-left: 3px;
+}
+
+#boqueria img{
+  width: 100%;
+  height: auto;
+}
+
+#rambla_sinfondo img{
+  width: 95%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+#safa img{
+  width: 95%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+#safa_sinfondo img{
+  width: 100%;
+  height: auto; 
+}
+
+
 
 
 
