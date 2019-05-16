@@ -24,6 +24,9 @@ background-color: #FFF;
   font-weight: 900;
 }
 
+
+
+
 #titol{
   width: 60%;
   height: 100px;
@@ -88,6 +91,10 @@ h1{
   font-size: 25px;
 }
 
+h2{
+  margin-left: 10px;
+}
+
 p{
   margin: 5px;
   padding: 5px;
@@ -117,10 +124,32 @@ a:visited{
   text-decoration: none;
 }
 
-
-p2{
-  font-size: 12px;
+#newyork img{
+  height: 280px;
+  width: 100%;
 }
+
+#london img{
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-left: 10%;
+  padding: 2%;
+}
+
+#pisa img{
+  height: 200px;
+  width: auto;
+  padding: 2%;
+}
+
+#paris img{
+  height: 280px;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+
 
 #ciutats{
   margin: 10px;
@@ -175,6 +204,7 @@ li{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-left: 10px;
 }
 
 #menu{
@@ -415,7 +445,6 @@ li{
 
 
 
-
 #safa img{
   width: 95%;
   height: auto;
@@ -517,8 +546,6 @@ h1{
   background-color: ;
   height: 100%;
   width: 100%;
-
-
 }
 
 }

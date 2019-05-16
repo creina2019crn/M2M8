@@ -1,26 +1,20 @@
 @media screen and (min-width:481px){
 
 
-
-
 body{
 font-family: Verdana;
 margin: 0;
 padding: 0;
-background-image: url(imagenes/fondoweb.jpg);
+background-color: #FFF;
 box-sizing: border-box;
 }
 
-#quisom{
-
+h1{
+  text-align: center;
 }
 
-#altresllocs{
-
-}
-
-#mesinfo{
-
+h2{
+  margin-left: 10px;
 }
 
 
@@ -31,7 +25,11 @@ box-sizing: border-box;
   height: 100px;
   overflow: hidden;
   padding-left: ;
+}
 
+#bcn{
+  font-size: 30px;
+  text-align: center;
 }
 
 #titol{
@@ -41,16 +39,18 @@ box-sizing: border-box;
   height: 100px;
   background-color: ;
   text-align: center;
-
   margin: 0;
   padding: 0;
   list-style-type: none;
   float: left;
 }
+
 #titol h2{
   padding-top: 20px;
-  font-size: 1.1em;
+  font-size: 35px;
+  margin-top: 10px;
 }
+
 #nav{
   width: 20%;
   height: 100px;
@@ -71,9 +71,12 @@ box-sizing: border-box;
   padding: 0;
   margin-top: -2%;
 }
+
 #logocrisai img{
   width: 80%;
   height: auto;
+  margin-left: -60px;
+  margin-top: 30px;
 }
 
 a{
@@ -99,11 +102,46 @@ a:visited{
   text-decoration: none;
 }
 
-p2{
-  font-size: 12px;
+
+#newyork img{
+  width: 800px;
+  height: auto;
+  float: left;
+
 }
 
 
+#london img{
+  height: 540px;
+  width: auto;
+  margin-left: 14.5%;
+  padding: 2%;
+  margin-top: -2%;
+}
+
+#pisa img{
+  height: 540px;
+  width: auto;
+  padding: 2%;
+  margin-left: 10%;
+  float: left;
+}
+
+
+#paris img{
+  width: 800px;
+  height: auto;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+
+
+p{
+  margin: 15px;
+  font-size: 20px;
+}
 
 
 .check{
@@ -141,31 +179,300 @@ transition: 1s;
   height: 5px;
   background-color: #FFF;
   margin: 10px 0;
+  margin-left: 15px;
+  margin-top: 15px;
 }
+
 li{
   list-style-type: none;
+  margin-left: 15px;
 }
 
 #menu{
   background-color: rgb(89, 166, 237);
   width: 95%;
+  height: 150px;
   left: -100%;
   position: fixed;
   top: 45px;
   padding-left: 5%;
+
 }
 
+#menu li{
+  margin: 20px 0;
+  padding-top: 3px;
+
+}
 
 #barramedio{
-
   width: 100%;
   height: 900px;
   display: inline-block;
   vertical-align: middle;
-
   text-align: center;
-  overflow: hidden;
 }
+
+
+
+
+
+#arc1 img{
+  height: 280px;
+  width: auto;
+}
+
+#art1 img{
+  height: 400px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#parc1 img{
+  height: auto;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-top: -580px;
+
+}
+
+
+
+
+
+#cat1 img{
+  height: 500px;
+  width: auto;
+  margin-left: 38%;
+}
+
+#cat2 img{
+  height: 500px;
+  width: auto;
+  padding: 20px;
+  margin-left: 17%;
+}
+
+
+
+
+
+#colom1 img{
+  height: 500px;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 30%;
+
+}
+
+#leon img{
+  height: auto;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin: 15%;
+  margin-top: 10px;
+
+}
+
+#estatua img{
+  height: 350px;
+  width: auto;
+  padding: 5px;
+  margin: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+
+
+
+#camp img{
+  height: 500px;
+  width: auto;
+  margin-left: 30%;
+}
+
+#pano img{
+  height: auto;
+  width: 98%;
+}
+
+#confe img{
+  height: 500px;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  margin-left: 30%;
+}
+
+
+
+#hotel img{
+  height: 600px;
+  width: auto;
+  padding: 5px;
+  margin: 10px;
+  float: left;
+}
+
+#hotel_arriba img{
+  height: 320px;
+  width: auto;
+  margin-left: 45%;
+  margin-bottom: 2%;
+}
+
+
+#hotel_todo img{
+  height: 550px;
+  width: auto;
+  margin-left: 60px;
+  padding: 10px;
+}
+
+
+
+
+
+
+#arenas img{
+  height: 500px;
+  width: auto;
+  margin-left: 30%;
+}
+
+#arenas_arriba img{
+  height: 350px;
+  width: auto;
+  margin: 10px;
+  padding: 5px;
+  margin-top: -5px;
+  margin-left: 25%;
+  float: left;
+
+
+}
+
+#arriba img{
+  height: 350px;
+  width: auto;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+
+#font img{
+  height: 500px;
+  width: auto;
+  margin-left: 30%;
+}
+
+#parque img{
+  height: 500px;
+  width: auto;
+  margin-left: 30%;
+}
+
+#lago img{
+  height: 500px;
+  width: auto;
+  margin-bottom: 15px;
+  margin-left: 30%;
+}
+
+
+
+
+
+#plaza img{
+  height: 500px;
+  width: auto;
+  margin-left: 20px;
+  float: left;
+}
+
+#bicis img{
+  height: 400px;
+  width: auto;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+#fondo_magenta img{
+  height: auto;
+  width: 700px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+#rambla_bajo img{
+  width: 800px;
+  height: auto;
+  margin-left: 30%;
+}
+
+#estatuas img{
+  width: 500px;
+  height: auto;
+  margin-left: 15%;
+
+}
+
+#boqueria img{
+  width: 800px;
+  height: auto;
+  margin-left: 5%;
+  float: left;
+}
+
+#rambla_sinfondo img{
+  width: 500px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+
+#safa img{
+  width: 650px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+
+#safa_sinfondo img{
+  width: 500px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 30%;
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
 
 
 #logos{
@@ -187,25 +494,23 @@ padding: 2% 0 0 0;
 
 #inferior{
   background-color: #3399ff;
-  color:#000;
   width: 100%;
-  height: 15%;
+  height: 18%;
   vertical-align: middle;
   text-align: center;
   padding: 0;
   margin: 0;
-  top: 95%;
-  padding-top: 0,005%;
   overflow: hidden;
-  position: absolute;
-  bottom: 6%;
+
 }
+
 .peu{
   padding: 10px;
   margin: 0;
   width: 30%;
   float: left;
 }
+
 .peu li{
   color: #000;
   font-size: 1.4em;
@@ -216,7 +521,8 @@ padding: 2% 0 0 0;
 }
 .peu li img{
   padding: 0;
-  margin: 0;
+  margin: 5px;
+  margin-left: 100px;
   width: 90%;
   height: auto;
 }
@@ -224,7 +530,6 @@ padding: 2% 0 0 0;
 .abaix{
   height: 1%;
   width: 100%;
-  position: fixed;
   bottom: 0;
   margin: 0;
   padding: 0;
@@ -240,7 +545,6 @@ padding: 2% 0 0 0;
   padding-right: 5px;
   border-right: 1px solid black;
   text-align: center;
-
 }
 
 #nada{
