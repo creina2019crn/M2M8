@@ -214,7 +214,9 @@ li{
 }
 
 
-
+#barramedio p{
+  text-align: left;
+}
 
 
 #arc1 img{
@@ -242,7 +244,6 @@ li{
 
 
 
-
 #cat1 img{
   height: 500px;
   width: auto;
@@ -257,7 +258,20 @@ li{
 }
 
 
+#avionlogo{
+  margin-bottom: 3%;
+  transform: rotate(-10deg);
+  padding-bottom: 6%;
+  float: left;
+  margin-top: 5%;
+}
 
+#logocrisai1{
+margin: 40px;
+margin-right: 15%;
+float: right;
+margin-top: 5%;
+}
 
 
 #colom1 img{
@@ -479,7 +493,6 @@ li{
 background-color: ;
 height: 800px;
 margin-top: 1%;
-
 }
 
 #logos img{

@@ -47,6 +47,13 @@ background-color: #FFF;
   font-family:
 }
 
+.crisai{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 18px;
+}
+
 #titol p{
   padding-top: 5px;
   font-size: 14px;
@@ -259,7 +266,9 @@ li{
   margin-bottom: 10px;
 }
 
-
+#barramedio p{
+  text-align: left;
+}
 
 
 
@@ -470,6 +479,17 @@ margin: 5px;
 padding: 30px;
 }
 
+
+#avion{
+  height: 10%;
+
+}
+
+#logocrisai1{
+height: 5%;
+width: 2%;
+
+}
 
 #inferior{
     background-color: #3399ff;
