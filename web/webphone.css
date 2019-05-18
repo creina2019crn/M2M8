@@ -289,7 +289,7 @@ li{
 
 #colom1 img{
   height: 260px;
-  width: auto;
+  width: 100%;
   padding: 5px;
   margin: 10px;
 }
@@ -326,7 +326,7 @@ li{
 
 #confe img{
   height: 265px;
-  width: auto;
+  width: 100%;
   margin: 5px;
   padding: 10px;
 }
@@ -435,7 +435,8 @@ li{
 #estatuas img{
   width: 180px;
   height: auto;
-  margin-left: 3px;
+  margin-left: 2px;
+
 }
 
 #boqueria img{
