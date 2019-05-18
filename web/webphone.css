@@ -480,14 +480,21 @@ padding: 30px;
 }
 
 
-#avion{
+#avion img{
+  bottom: 10%;
   height: 10%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 20%;
 
 }
 
-#logocrisai1{
-height: 5%;
-width: 2%;
+#logocrisai1 img{
+  float: right;
+  margin-right: 9%;
+height: 10%;
+width: 23%;
+
 
 }
 

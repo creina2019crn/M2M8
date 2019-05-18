@@ -224,6 +224,10 @@ li{
   width: auto;
 }
 
+#art1{
+
+}
+
 #art1 img{
   height: 400px;
   width: auto;
@@ -236,8 +240,6 @@ li{
   width: 500px;
   margin: 0;
   padding: 0;
-  float: left;
-  margin-top: -580px;
 
 }
 
@@ -258,19 +260,23 @@ li{
 }
 
 
-#avionlogo{
+#avion img{
   margin-bottom: 3%;
   transform: rotate(-10deg);
   padding-bottom: 6%;
   float: left;
-  margin-top: 5%;
+  height: 200px;
+  width: auto;
 }
 
-#logocrisai1{
+#logocrisai1 img{
 margin: 40px;
 margin-right: 15%;
 float: right;
 margin-top: 5%;
+height: 200px;
+width: auto;
+margin-top: -1%;
 }
 
 
@@ -484,11 +490,6 @@ margin-top: 5%;
 
 
 
-
-
-
-
-
 #logos{
 background-color: ;
 height: 800px;
@@ -508,7 +509,7 @@ padding: 2% 0 0 0;
 #inferior{
   background-color: #3399ff;
   width: 100%;
-  height: 18%;
+  height: 10%;
   vertical-align: middle;
   text-align: center;
   padding: 0;
@@ -541,9 +542,8 @@ padding: 2% 0 0 0;
 }
 
 .abaix{
-  height: 1%;
+  height: 2%;
   width: 100%;
-  bottom: 0;
   margin: 0;
   padding: 0;
   background-color: rgb(46, 113, 176);
@@ -551,13 +551,20 @@ padding: 2% 0 0 0;
   font-size: 10px;
   line-height: 16px;
   text-align: center;
+  overflow:hidden;
+
+
 }
 
 .abaix li{
-  display: inline;
-  padding-right: 5px;
-  border-right: 1px solid black;
+  float: left;
+  margin: 0 5px;
+  padding: 0 5px;
   text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+
+
 }
 
 #nada{
