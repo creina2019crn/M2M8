@@ -142,10 +142,12 @@ a:visited{
 
 
 p{
-  margin: 15px;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 20px;
   margin-left: 2%;
-  float: left;
+  text-align: center;
+
+
 }
 
 
@@ -195,13 +197,15 @@ li{
 }
 
 #menu{
-  background-color: rgb(89, 166, 237);
+  background-color: rgba(10, 19, 139, 0.8);
   width: 95%;
-  height: 150px;
+  height: 230px;
   left: -100%;
   position: fixed;
-  top: 45px;
+  top: -15px;
   padding-left: 5%;
+  font-size: 23px;
+  line-height: 40px;
 }
 
 #menu li{
@@ -532,14 +536,11 @@ padding: 2% 0 0 0;
 }
 
 
-
-
-
 .peu li{
   padding: 0;
   margin: 0;
   color: #000;
-  font-size: 30px;
+  font-size: 15px;
   line-height: 40px;
   overflow: visible;
 }
@@ -556,25 +557,6 @@ h1{
   height: auto;
 }
 
-.abaix{
-  height: 2%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(46, 113, 176);
-  padding-bottom: 10px;
-  font-size: 10px;
-  line-height: 16px;
-  overflow:hidden;
-}
-
-.abaix li{
-  margin: 0 5px;
-  padding: 0 5px;
-  font-size: 10px;
-  line-height: 14px;
-  text-align: center;
-}
 
 #nada{
   border: 0;
@@ -586,9 +568,5 @@ h1{
   width: auto;
 }
 
-.cookies{
-  margin: 0;
-  padding: 0;
-}
 
 }

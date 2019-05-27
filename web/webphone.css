@@ -132,10 +132,10 @@ a:visited{
 }
 
 #newyork img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 230px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #london img{
@@ -153,11 +153,10 @@ a:visited{
 }
 
 #paris img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 2%;
+  height: 230px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 
@@ -219,7 +218,7 @@ li{
 }
 
 #menu{
-  background-color: rgb(89, 166, 237);
+  background-color: rgba(10, 19, 139, 0.8);
   width: 95%;
   height: 150px;
   left: -100%;
@@ -250,25 +249,29 @@ li{
 
 
 
-#arc1 img{
-  height: 280px;
+#arc img{
+  height: 250px;
   width: auto;
+  margin-left: 2%;
+  margin-bottom: 3%;
 }
 
 #art1 img{
   height: 400px;
   width: auto;
   margin: 0;
-  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
   padding: 0;
+
 }
 
+
 #parc1 img{
-  height: auto;
-  width: 380px;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
+  height: 250px;
+  width: auto;
+  margin-left: 2%;
+  margin-bottom: 3%;
 }
 
 #barramedio p{
@@ -278,14 +281,17 @@ li{
 
 
 #cat1 img{
-  height: 500px;
+  height: 460px;
   width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #cat2 img{
   height: 200px;
   width: auto;
-  padding: 20px;
+  margin-left: 8%;
+  margin-bottom: 3%;
 }
 
 
@@ -294,16 +300,16 @@ li{
 
 #colom1 img{
   height: 260px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #leon img{
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #estatua img{
@@ -320,17 +326,17 @@ li{
 
 
 #camp img{
-  height: 300px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #pano img{
-  height: 90px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 77px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #confe img{
@@ -345,17 +351,17 @@ li{
 
 
 #hotel img{
-  height: 400px;
+  height: 460px;
   width: auto;
   padding: 5px;
   margin: 10px;
 }
 
 #hotel_arriba img{
-  height: 320px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 290px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 
@@ -372,10 +378,10 @@ li{
 
 
 #arenas img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #arenas_arriba img{
@@ -387,10 +393,10 @@ li{
 }
 
 #arriba img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 
@@ -398,10 +404,10 @@ li{
 
 
 #font img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #parque img{
@@ -411,10 +417,9 @@ li{
 }
 
 #lago img{
-  height: 280px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 260px;
+  width: auto;
+  margin-left: 4%;
   margin-bottom: 3%;
 }
 
@@ -436,9 +441,10 @@ li{
 }
 
 #fondo_magenta img{
-  height: auto;
-  width: 100%;
-  margin-bottom: 10px;
+  height: 250px;
+  width: auto;
+  margin-left: 20px;
+  margin-bottom: 3%;
 }
 
 
@@ -446,30 +452,30 @@ li{
 
 
 #rambla_bajo img{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  height: 260px;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #estatuas img{
-  width: 100%;
-  height: auto;
-  margin-left: 3px;
+  width: auto;
+  height: 230px;
+  margin-left: 3%;
+  margin-bottom: 3%;
 }
 
 #boqueria img{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  height: 170px;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #rambla_sinfondo img{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  height: 460px;
+  margin-left: 4%;
   margin-bottom: 3%;
 }
 
@@ -478,18 +484,17 @@ li{
 
 
 #safa img{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  height: 360px;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 #safa_sinfondo img{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 2%;
+  width: auto;
+  height: 480px;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 
 
@@ -507,10 +512,9 @@ padding: 30px;
 #avion img{
   bottom: 10%;
   height: 10%;
-    float: left;
-    margin-left: 2%;
-    margin-bottom: 20%;
-
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 20%;
 }
 
 #logocrisai1 img{
@@ -549,9 +553,10 @@ width: 23%;
   padding: 0;
   margin: 0;
   color: #000;
-  font-size: 0.5em;
+  font-size: 10px;
   line-height: 16px;
   overflow: visible;
+  margin-top: 5px;
 }
 
 
