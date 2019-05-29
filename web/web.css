@@ -110,13 +110,14 @@ a:visited{
 #newyork img{
   width: 750px;
   height: auto;
+  margin-left: 30%;
 }
 
 
 #london img{
   height: 480px;
   width: auto;
-  margin-left: 110%;
+  margin-left: 140%;
   margin-top: -65%;
 }
 
@@ -124,13 +125,14 @@ a:visited{
   height: 480px;
   width: auto;
   margin-top: 5%;
+  margin-left: 40%;
 }
 
 
 #paris img{
   width: 750px;
   height: auto;
-  margin-left: 58%;
+  margin-left: 100%;
   margin-top: -65%;
 }
 
@@ -139,12 +141,18 @@ a:visited{
 p{
   font-size: 15px;
   line-height: 20px;
-  margin-left: 2%;
+  margin-left: 20%;
   text-align: center;
-
-
+  margin-right: 20%;
 }
 
+p2{
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 20%;
+  text-align: center;
+  margin-right: 20%;
+}
 
 .check{
   cursor: pointer;
@@ -251,25 +259,27 @@ margin-top: 5%;
 
 
 #arc img{
-  height: 375px;
+  height: 400px;
   width: auto;
   margin: 0;
   float: left;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 
 #art1 img{
-  height: 380px;
+  height: 450px;
   width: auto;
   margin-right: 38%;
 }
 
 #parc1 img{
-  height: 350px;
+  height: 400px;
   width: auto;
-  margin-top: -29%;
+  margin-top: -24%;
   float: right;
-  margin-right: 2%;
+  margin-right: 10%;
 }
 
 
@@ -297,7 +307,7 @@ margin-top: 5%;
   width: auto;
   padding: 5px;
   margin: 10px;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 
@@ -307,15 +317,15 @@ margin-top: 5%;
   width: auto;
   margin-bottom: 2%;
   margin-top: 10px;
+  margin-left: 15%;
 }
 
 
 #leon img{
   height: auto;
   width: 700px;
-  padding: 0;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 3%;
 
 }
 
@@ -325,7 +335,7 @@ margin-top: 5%;
   height: 400px;
   width: auto;
   float: left;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 #confe img{
@@ -347,7 +357,7 @@ margin-top: 5%;
   height: 500px;
   width: auto;
   float: left;
-  margin-left: 15%;
+  margin-left: 25%;
 }
 
 
@@ -359,10 +369,10 @@ margin-top: 5%;
 
 
 #hotel_arriba img{
-  height: 600px;
+  height: 700px;
   width: auto;
   margin-top: 2%;
-  margin-left: 22%;
+  margin-left: 28%;
 }
 
 
@@ -373,7 +383,7 @@ margin-top: 5%;
 #arenas img{
   height: 550px;
   width: auto;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 #arenas_arriba img{
@@ -382,7 +392,7 @@ margin-top: 5%;
   margin: 10px;
   padding: 5px;
   margin-top: -5px;
-  margin-left: 15%;
+  margin-left: 25%;
   float: left;
 }
 
@@ -399,20 +409,20 @@ margin-top: 5%;
 #font img{
   height: 500px;
   width: auto;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 #parque img{
   height: 500px;
   width: auto;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 #lago img{
   height: 500px;
   width: auto;
   margin-bottom: 15px;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 
@@ -423,6 +433,7 @@ margin-top: 5%;
   height: 500px;
   width: auto;
   float: left;
+  margin-left: 15%;
 }
 
 #bicis img{
@@ -434,9 +445,9 @@ margin-top: 5%;
 
 #fondo_magenta img{
   height: auto;
-  width: 700px;
-  margin-top: 5%;
-  margin-left: 25%;
+  width: 800px;
+  margin-top: 3%;
+  margin-left: 28%;
 }
 
 
@@ -447,6 +458,7 @@ margin-top: 5%;
   width: 800px;
   height: auto;
   float: left;
+  margin-left: 20%;
 }
 
 #estatua1 img{
@@ -460,20 +472,21 @@ margin-top: 5%;
 #estatua2 img{
   width: 320px;
   height: auto;
-  margin-left: 6%;
+  margin-left: 8%;
 }
 
 
 #boqueria img{
-  width: 900px;
+  width: 1200px;
   height: auto;
-  margin-left: 15%;
+  margin-left: 17%;
+  margin-top: -5%;
 }
 
 #rambla_sinfondo img{
   width: 500px;
   height: auto;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 
@@ -483,14 +496,15 @@ margin-top: 5%;
   width: 500px;
   height: auto;
   float: left;
-  margin-left: 7%;
+  margin-left: 15%;
+  margin-top: 3%;
 }
 
 #safa_sinfondo img{
   width: 400px;
   height: auto;
-  margin-left: 10%;
-  margin-top: -3%;
+  margin-left: 20%;
+  margin-top: 1%;
 }
 
 
