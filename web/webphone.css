@@ -250,14 +250,14 @@ li{
 
 
 #arc img{
-  height: 250px;
+  height: 220px;
   width: auto;
   margin-left: 2%;
   margin-bottom: 3%;
 }
 
 #art1 img{
-  height: 400px;
+  height: 350px;
   width: auto;
   margin: 0;
   margin-left: 3%;
@@ -268,7 +268,7 @@ li{
 
 
 #parc1 img{
-  height: 250px;
+  height:220px;
   width: auto;
   margin-left: 2%;
   margin-bottom: 3%;
@@ -281,14 +281,14 @@ li{
 
 
 #cat1 img{
-  height: 460px;
+  height: 420px;
   width: auto;
-  margin-left: 4%;
+  margin-left: 7%;
   margin-bottom: 3%;
 }
 
 #cat2 img{
-  height: 200px;
+  height: 210px;
   width: auto;
   margin-left: 8%;
   margin-bottom: 3%;
@@ -299,9 +299,9 @@ li{
 
 
 #colom1 img{
-  height: 260px;
+  height: 230px;
   width: auto;
-  margin-left: 4%;
+  margin-left: 6%;
   margin-bottom: 3%;
 }
 
