@@ -1,0 +1,428 @@
+body{
+background-color: #3af;
+  margin: 40px;
+  padding: 20px;
+}
+
+.lluna{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: inset 50px 0px 0 #666;
+  animation-name: lluna;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes lluna {
+
+  0%{
+top: 0;
+left: 0;
+  }
+  50%{
+top: 0;
+left: 2000px;
+transform: scale(1) rotate(360deg);
+  }
+}
+
+
+#nuvol{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 100%;
+  position: relative;
+  left: 150px;
+animation-name: nuvol;
+animation-duration: 20s;
+animation-timing-function: linear;
+animation-delay: 1s;
+animation-iteration-count: 5;
+animation-direction: alternate;
+}
+
+#nuvol::before{
+  content: "";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: -20px;
+  top: 90px;
+}
+
+#nuvol::after{
+  content: "";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 130px;
+  top: 30px;
+}
+
+#nuvol1{
+  width: 250px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 100%;
+  position: relative;
+  left: 1000px;
+  top: -250px;
+animation-name: nuvol1;
+animation-duration: 20s;
+animation-timing-function: linear;
+animation-delay: 1s;
+animation-iteration-count: 5;
+animation-direction: alternate;
+}
+#nuvol1::after{
+  content: "";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: 150px;
+  top: 45px;
+}
+#nuvol1::before{
+  content: "";
+  background-color: #FFF;
+  padding: 50px 70px;
+  border-radius: 100%;
+  position: relative;
+  left: -20px;
+  top: 90px;
+}
+
+@keyframes nuvol {
+
+  0%{
+top: 0;
+left: 150px;
+  }
+  100%{
+top: 0;
+left: 700px;
+  }
+
+}
+@keyframes nuvol1{
+
+  0%{
+top: -200px;
+left: 1400px;
+  }
+  100%{
+top: 0;
+left: 700px;
+  }
+
+}
+
+
+.muntanya{
+width: 0;
+height: 0;
+border-right: 250px solid transparent;
+border-top: 30px solid transparent;
+border-left: 300px solid transparent;
+border-bottom: 350px solid gold;
+position: relative;
+top: -190px;
+
+}
+.muntanya2{
+width: 0;
+height: 0;
+border-right: 300px solid transparent;
+border-top: 30px solid transparent;
+border-left: 300px solid transparent;
+border-bottom: 350px solid #f0ad4e;
+position: relative;
+top: -570px;
+left: 300px;
+}
+.muntanya3{
+width: 0;
+height: 0;
+border-right: 350px solid transparent;
+border-top: 30px solid transparent;
+border-left: 350px solid transparent;
+border-bottom: 400px solid red;
+position: relative;
+top: -1000px;
+left: 550px;
+}
+
+.muntanya4{
+width: 0;
+height: 0;
+border-right: 210px solid transparent;
+border-top: 30px solid transparent;
+border-left: 210px solid transparent;
+border-bottom: 250px solid orange;
+position: relative;
+top: -1280px;
+left: 1000px;
+}
+
+
+
+.petal{
+  width: 100px;
+  height: 100px;
+  background-color: #FF3;
+  border-radius: 100px 0 100px 0;
+}
+.flor{
+  position: relative;
+  left: 15px;
+  animation-name: flor;
+  animation-duration: 30s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  transform-origin: 0 100px;
+  margin-left: 400px;
+  z-index: 101;
+  top: -130px;
+
+}
+
+@keyframes flor{
+  from{
+    transform: rotate(0deg);
+    transform-origin: 0 100px;
+  }
+  to{
+    transform: rotate(360deg);
+    transform-origin: 0 100px;
+  }
+}
+
+
+.centre{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 25px;
+  position: relative;
+  top: -525px;
+  left: -25px;
+}
+
+.p2{
+  transform: translateY(-100px) rotate(60deg);
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-200px) rotate(120deg);
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-300px) rotate(180deg);
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-400px) rotate(240deg);
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-500px) rotate(300deg);
+  transform-origin: 0 100px;
+}
+
+.rama{
+  height: 200px;
+  width: 20px;
+  background-color: #006600 ;
+  margin-top: 0;
+  margin-left: 585px;
+  position: relative;
+  top: -1480px;
+}
+
+
+.petal2{
+  width: 100px;
+  height: 100px;
+  background-color: #FF3;
+  border-radius: 100px 0 100px 0;
+}
+.flor2{
+  position: relative;
+  left: 0;
+  animation-name: flor;
+  animation-duration: 30s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  transform-origin: 0 100px;
+  margin-left: 600px;
+  z-index: 101;
+  top: -2000px;
+}
+
+.centre2{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 25px;
+  position: relative;
+  top: -525px;
+  left: -25px;
+}
+
+.p2{
+  transform: translateY(-100px) rotate(60deg);
+  transform-origin: 0 100px;
+}
+.p3{
+  transform: translateY(-200px) rotate(120deg);
+  transform-origin: 0 100px;
+}
+.p4{
+  transform: translateY(-300px) rotate(180deg);
+  transform-origin: 0 100px;
+}
+.p5{
+  transform: translateY(-400px) rotate(240deg);
+  transform-origin: 0 100px;
+}
+.p6{
+  transform: translateY(-500px) rotate(300deg);
+  transform-origin: 0 100px;
+}
+
+.rama2{
+  height: 200px;
+  width: 20px;
+  background-color: #006600;
+  margin-top: 0;
+  margin-left: 585px;
+  position: relative;
+  z-index: 100;
+  top: -1680px;
+  left: 400px;
+}
+
+
+#formiga{
+  position: relative;
+  animation-name: paso;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+  top: -2370px;
+}
+
+@keyframes paso{
+  0%{
+    top: -2370px;
+    right: 0;
+  }
+  50%{
+    top: -2370px;
+    right: -600px;
+  }
+  100%{
+    top: -2370px;
+    right: -1200px;
+  }
+}
+
+#darrere{
+  background-color: black;
+  height: 30px;
+  width: 40px;
+  border-radius: 50px 50px 50px 50px;
+
+}
+#devant{
+  background-color: black;
+  height: 20px;
+  width: 30px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 40px;
+  margin-top: -25px;
+
+}
+#cap{
+  background-color: black;
+  height: 40px;
+  width: 50px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 70px;
+  margin-top: -30px;
+}
+#antena1{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  margin-left: 100px;
+  margin-top: -40px;
+  transform: rotate(-20deg);
+}
+#antena2{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  margin-left: 90px;
+  margin-top: -10px;
+  transform: rotate(-40deg);
+}
+#pata1{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  transform: rotate(-40deg);
+  margin-top: 40px;
+  position: relative;
+  animation-name: right;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1000;
+  animation-direction:normal;
+}
+@keyframes right{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  100%{
+    transform: rotate(-90deg);
+    top: 0;
+    right: 0;
+  }
+}
+#pata2{
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  transform: rotate(50deg);
+  margin-top: -10px;
+  margin-left: 60px;
+  position: relative;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-iteration-count: 1000;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-direction:normal;
+  }
+  @keyframes left{
+  0%{
+    top: 0;
+    right: 0;
+  }
+  100%{
+    transform: rotate(80deg);
+    top: 0;
+    right: 0;
+  }
+  }
