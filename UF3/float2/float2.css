@@ -1,0 +1,36 @@
+body{
+  font-family: Arial;
+}
+
+
+
+#texto1{
+  padding-right: auto;
+}
+
+#PRINCIPAL{
+  background-color: red;
+  width:60%;
+  height: 500px;
+  float: left;
+}
+
+
+
+#LATERAL{
+  background-color: green;
+width:38%;
+height: 500px;
+float: right;
+}
+
+#PEU{
+  background-color: pink;
+  clear: both;
+}
+.h1{
+  padding: 15px;
+}
+img{
+  float: left;
+}
